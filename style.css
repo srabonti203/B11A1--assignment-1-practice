@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.font-family {
+  font-family: "Fira Sans", sans-serif;
+}
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+/* shared */
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1280px;
+  margin: 80px auto;
+}
+/* buttons */
+.nav-button {
+  padding: 15px 30px;
+  color: rgba(0, 106, 80, 1);
+  border: 1px solid rgba(0, 106, 80, 1);
+  border-radius: 8px;
+  font-style: SemiBold;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.banner-button {
+  width: 284px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+}
+/* navbar */
+nav {
+  padding: 24px 160px;
+}
+nav .logo {
+  color: rgba(14, 14, 14, 1);
+  font-style: Bold;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+/* banner */
+.banner {
+  padding: 100px 80px;
+  margin-top: 20px;
+  border-radius: 24px;
+  background: rgba(198, 228, 214, 1);
+}
+.banner-text {
+  width: 622px;
+  height: 326px;
+}
+.banner-text p {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+.banner-text h1 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 67px;
+  margin-bottom: 24px;
+}
+/* piller of bd */
+.piller-cart {
+  gap: 24px;
+}
+.pillers h2 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+.innovation,
+.Sustainability,
+.Infrastructure,
+.Empowerment {
+  width: 302px;
+  height: 244px;
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+.innovation h4,
+.Sustainability h4,
+.Infrastructure h4,
+.Empowerment h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.innovation p,
+.Sustainability p,
+.Infrastructure p,
+.Empowerment p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 254px;
+}

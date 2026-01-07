@@ -20,6 +20,7 @@ body {
   max-width: 1280px;
   margin: 80px auto;
 }
+
 /* buttons */
 .nav-button {
   padding: 15px 30px;
@@ -41,6 +42,29 @@ body {
   border: none;
   border-radius: 8px;
   background: rgba(0, 106, 80, 1);
+}
+.vision-btn1,
+.vision-btn2,
+.vision-btn3 {
+  width: 127px;
+  height: 41px;
+  text-align: center;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+.vision-btn1 {
+  background: rgba(84, 144, 245, 1);
+}
+.vision-btn2 {
+  background: rgba(9, 161, 92, 1);
+}
+.vision-btn3 {
+  background: rgba(255, 194, 57, 1);
 }
 /* navbar */
 nav {
@@ -120,4 +144,86 @@ nav .logo {
   font-weight: 400;
   line-height: 24px;
   width: 254px;
+}
+/* vision */
+.vision h2 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.vision p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.vision-cart {
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.Digital-Transformation,
+.Green-Energy,
+.Modern-Infrastructure {
+  width: 410.67px;
+  height: 325px;
+  padding: 32px;
+  border-radius: 16px;
+}
+.Digital-Transformation {
+  background: rgba(84, 144, 245, 0.2);
+}
+.Green-Energy {
+  background: rgba(198, 228, 214, 1);
+}
+.Modern-Infrastructure {
+  background: rgba(247, 235, 207, 1);
+}
+.Digital-Transformation h4,
+.Green-Energy h4,
+.Modern-Infrastructure h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.Digital-Transformation p,
+.Green-Energy p,
+.Modern-Infrastructure p {
+  width: 346.67px;
+  height: 72px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.quote {
+  width: 1280px;
+  height: 256px;
+  padding: 48px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+.quote p {
+  width: 1232px;
+  height: 96px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.quote h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 4px;
 }

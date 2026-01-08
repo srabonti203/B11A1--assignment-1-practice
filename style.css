@@ -25,6 +25,7 @@
 /* buttons */
 .nav-button {
   padding: 15px 30px;
+  cursor: pointer;
   color: rgba(0, 106, 80, 1);
   border: 1px solid rgba(0, 106, 80, 1);
   border-radius: 8px;
@@ -40,6 +41,7 @@
   font-weight: 600;
   line-height: 22px;
   padding: 17px 34px;
+  cursor: pointer;
   border: none;
   border-radius: 8px;
   background: rgba(0, 106, 80, 1);
@@ -51,6 +53,7 @@
   height: 41px;
   text-align: center;
   padding: 11px 20px;
+  cursor: pointer;
   border: none;
   border-radius: 8px;
   color: rgba(255, 255, 255, 1);
@@ -71,6 +74,7 @@
   width: 152px;
   height: 44px;
   padding: 10px 14px;
+  cursor: pointer;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 1);
   border-radius: 4px;
@@ -79,6 +83,19 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
+}
+.recent-btn {
+  width: 145px;
+  height: 48px;
+  padding: 13px 26px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background: rgba(0, 106, 80, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
 }
 /* navbar */
 nav {
@@ -226,6 +243,9 @@ nav .logo {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgba(255, 255, 255, 1);
+  background-image: url("./images/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top 25px left 24px;
 }
 .quote p {
   width: 1232px;
@@ -285,4 +305,69 @@ table {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: rgba(198, 228, 214, 1);
+}
+/* recent news */
+.recent-news {
+  width: 1280px;
+  height: 1406px;
+}
+.recent-news h2 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.recent-news .main-pera {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.rnews-cart1 {
+  width: 1280px;
+  height: 402px;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 24px;
+}
+.rnews-cart1 img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.r-cart-text {
+  width: 744px;
+  height: 290px;
+}
+.r-cart-text h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 12px;
+}
+.r-cart-text img {
+  width: 134px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+.rDate {
+  justify-content: left;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.r-cart-text .last-pera {
+  width: 744px;
+  height: 72px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
 }

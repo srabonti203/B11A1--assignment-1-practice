@@ -496,3 +496,29 @@ table {
   top: 216px;
   right: 189px;
 }
+/* footer */
+footer {
+  text-align: center;
+  width: 1600px;
+  margin: 0 auto;
+  padding: 50px 160px;
+}
+footer h5 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 32px;
+}
+footer hr {
+  width: 1122px;
+  height: 0;
+  margin-bottom: 32px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.solials {
+  width: 120.55px;
+  height: 24px;
+  gap: 23px;
+  margin: 0 579px;
+}

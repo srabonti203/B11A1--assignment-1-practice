@@ -6,9 +6,10 @@
 .font-family {
   font-family: "Fira Sans", sans-serif;
 }
-body {
+.p-body {
   max-width: 1600px;
   margin: 0 auto;
+  background-color: rgba(241, 241, 243, 1);
 }
 /* shared */
 .display {
@@ -66,9 +67,24 @@ body {
 .vision-btn3 {
   background: rgba(255, 194, 57, 1);
 }
+.table-btn {
+  width: 152px;
+  height: 44px;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 1);
+  border-radius: 4px;
+  background: rgba(198, 228, 214, 1);
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
 /* navbar */
 nav {
-  padding: 24px 160px;
+  width: 1600px;
+  margin: 0 auto;
+  padding: 31px 160px;
 }
 nav .logo {
   color: rgba(14, 14, 14, 1);
@@ -226,4 +242,47 @@ nav .logo {
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 4px;
+}
+/* opinion */
+.opinion h2 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.t-body {
+  width: 1280px;
+  height: 409px;
+  padding: 32px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+table {
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.btn-cell {
+  width: 200px;
+  height: 92px;
+  padding: 24px;
+}
+.t-cell {
+  width: 1017px;
+  height: 92px;
+  padding: 24px;
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+}
+.thead-cell {
+  width: 1216px;
+  height: 72px;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(198, 228, 214, 1);
 }
